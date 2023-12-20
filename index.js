@@ -50,7 +50,7 @@ async function update() {
     },
     city: {
       value: forecasts[0].province + " " + forecasts[0].city,
-      color: "#FDF7C4",
+      color: "#EB3EC1",
     },
     weather: {
       value: forecasts[0].casts[0].dayweather,
